@@ -1,8 +1,12 @@
 img {
 width:450px;
+image-orientation: from-image;
 }
 body{
-background-color:#e0d1bf;}
+background-color:#e0d1bf;
+text-align: center;
+}
+
 
 #container {
 width: 1000px;
@@ -11,12 +15,53 @@ margin: 0 auto;
 background-color: #edcce2;
 
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.active {
+  background-color: "pink";
+}
+/* Change the link color to pink on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
 main {
 padding: 0 10px;
 }
 header{
 background-color: #c5b1de;
 }
+.start {
+    background-color: #dbde9c;
+    color: #111;
+    display: inline-block;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    padding: 10px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 30%;
+    left: 53%;
 #home-col-1{
 display: inline-block;
 width:480px;
@@ -72,9 +117,6 @@ footer{
 background-color: #c5b1de;
 text-align: center;
 }
-
-
-
-
-
-
+p {
+text-align: center;
+}
